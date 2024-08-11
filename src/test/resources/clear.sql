@@ -1,0 +1,19 @@
+DELETE FROM login_info;
+DELETE FROM match_result;
+DELETE FROM member;
+DELETE FROM ranking;
+DELETE FROM room;
+DELETE FROM profile;
+DELETE FROM participation;
+DELETE FROM develop_feedback;
+DELETE FROM social_feedback;
+
+ALTER TABLE login_info AUTO_INCREMENT 1;
+ALTER TABLE match_result AUTO_INCREMENT 1;
+ALTER TABLE member AUTO_INCREMENT 1;
+ALTER TABLE room AUTO_INCREMENT 1;
+ALTER TABLE ranking AUTO_INCREMENT 1;
+ALTER TABLE profile AUTO_INCREMENT 1;
+ALTER TABLE participation AUTO_INCREMENT 1;
+ALTER TABLE develop_feedback AUTO_INCREMENT 1;
+ALTER TABLE social_feedback AUTO_INCREMENT 1;
